@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-weight: bold;
+    src: url("fonts/SFPRODISPLAYBOLD.OTF") format("opentype");
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    font-size: 20px;
+    line-height: 150%;
+    color: #6A6D9E;
+}
+
+header {
+    background-image: url('./img/header-background.png');
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 100px;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    margin-right: 500px;
+    margin-left: 110px;
+    max-width: 1000px;
+}
+
+.header-img {
+    display: flex;
+    transform: scale(0.5);
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-inline-start: 0px;
+    margin-top: 25px;
+}
+
+.header-nav ul li a {
+    color: #040740;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 150%;
+    white-space: nowrap;
+}
+
+.startup {
+    margin-right: 100px;
+    color: #040740
+}
+
+.startup h4 {
+    font-family: "SF Pro Display";
+}
+
+.header-li {
+    left: 500px;
+}
+
+.join {
+    border-radius: 5px;
+    padding: 20px 20px;
+    padding-top: 5px 5px;
+    line-height: 150%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #8D448B;
+    border: 0px;
+    font-size: 15px;
+    min-width: 130px;
+    min-height: 50px;
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.join a {
+    text-decoration: none;
+    color: white;
+}
+
+.coworking {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    line-height: 60px;
+    color: #040740;
+    margin-left: 0;
+}
+
+.coworking h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.whether {
+    display: flex;
+    color: #040740;
+    width: 100%;
+    margin-left: 0;
+    line-height: 40px;
+}
+
+.Chicago {
+    margin-left: 0;
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: 2px solid #8D448B;
+    background-color: white;
+}
+
+.Chicago img {
+    margin-left: 380px;
+    transform: scale(1.0);
+    width: 20px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: 20px;
+    line-height: 50px;
+    color: white;
+    background-color: #8D448B;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+    height: 60px;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 60px 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    max-width: 580px;
+    margin-left: 70px;
+}
+
+.meet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: #8D448B;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.guys {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.guys p {
+    color: black;
+    width: 100%;
+    max-width: 442px;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    margin-left: 40px;
+}
+
+.uber {
+    margin-top: 55px;
+    transform: scale(1.7);
+}
+
+.google {
+    margin-top: 40px;
+    transform: scale(1.5);
+}
+
+.paypal {
+    margin-top: 35px;
+    transform: scale(1.5);
+}
+
+.microsoft {
+    margin-top: 35px;
+    transform: scale(1.5);
+}
+
+.dribble {
+    margin-top: 35px;
+    transform: scale(1.5);
+}
+
+.web img {
+    transform: scale(0.5);
+    transform-origin: center;
+}
+
+.feature-space {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.some-good {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+.some-good p {
+    width: 550px;
+    color: black;
+}
+
+.some-good h4 {
+    width: 40%;
+    color: black;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.about-elements {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-left: 200px;
+    gap: 40px;
+}
+
+.about-elements p {
+    color: black;
+    margin: 0;
+}
+
+
+.elements-photo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+        margin: 0;
+}
+
+.element1 {
+    padding-left: 200px;
+}
+
+.element2 {
+    padding-left: 130px;
+}
+
+.element3 {
+    padding-left: 160px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.information-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 200px;
+    color: black;
+    font-size: 13px
+}
+
+.ft1000 {
+    width: 12%;
+}
+
+.advantage {
+    width: 11%;
+    padding-left: 10px;
+}
+
+.internet {
+    width: 10%;
+    padding-left: 62px;
+}
+
+.some-good img{
+}
+
